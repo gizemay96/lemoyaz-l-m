@@ -36,6 +36,11 @@ h6,
   max-width: 1380px !important;
 }
 
+.rights-reserved{
+  color: white !important;
+  cursor: pointer !important
+}
+
 a {
   color: #ff00cc;
   transition: all .3s ease-in-out;
@@ -129,7 +134,7 @@ section {
   border-radius: 0;
   margin-bottom: 0;
   overflow: hidden;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
@@ -381,7 +386,7 @@ section {
   border-radius: 50%;
   transform-origin: 50% 50%;
   left: 5%;
-  top: 50%;
+  top: 62%;
   animation: fadeInFromTop .5s linear forwards, floating ease 4s infinite;
   padding: 5px;
 }
@@ -476,7 +481,7 @@ section {
 }
 
 .triangle-2 {
-  top: 30%;
+  top: 22%;
   left: 20%;
   animation: fadeInFromTop .5s linear forwards, floating ease-in-out 8s infinite;
 }
@@ -932,11 +937,11 @@ section {
     top: 0;
     height: auto;
     width: 100%;
-    background: #ff00cc;
+    background: #030303;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #000000, #fde400);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #000000, #eeff00);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
   }
@@ -947,11 +952,11 @@ section {
   }
 
   .navbar-transparent .navbar-collapse {
-    background: #ff00cc;
+    background: #030303;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #000000, #fde400);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #000000, #eeff00);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px;
   }
@@ -970,6 +975,50 @@ section {
     height: 30px;
     font-size: 16px;
   }
+}
+
+.about-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .vertical-line{
+    margin: 0px 15px !important;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .triangle-1{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .contact-info{
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron{
+    padding-top: 0 !important;
+  }
+
+  .container{
+    max-height: 750px !important;
+  }
+}
+
+
+.footer{
+  height: 10vh;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
 }
 
 /*=====  End of RESPONSIVE  ======*/
