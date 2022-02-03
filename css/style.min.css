@@ -995,6 +995,13 @@ section {
   .triangle-1{
     display: none !important;
   }
+  .about-lemodate{
+    margin-top: 60px !important;
+  }
+
+  .vertical-line {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 410px) {
